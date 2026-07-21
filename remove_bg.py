@@ -50,4 +50,4 @@ while queue:
     queue.append((x, y - 1))
 
 img.save(OUTPUT)
-print(f"已生成：{OUTPUT}")
+print(f"Generated：{OUTPUT}")
