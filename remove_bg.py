@@ -1,4 +1,7 @@
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
 from PIL import Image
+
 from collections import deque
 
 INPUT = "character.png"
